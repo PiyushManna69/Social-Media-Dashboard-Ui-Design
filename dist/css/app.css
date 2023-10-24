@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #1D1F29;
+    color: white;
+    width: 100%;
+}
+
+.text-head {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.total-followers, .s-name,.text-followers {
+    font-weight: 500;
+    font-size: 14px;
+    color: #8C98C6;
+}
+
+.font-size {
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -2px;
+}
+
+.text-followers {
+    letter-spacing: 2px;
+}
+
+.increase-color {
+    color: #1EB589;
+}
+
+.decrease-color {
+    color: #DC414C;
+}
+
+.c-size {
+    font-size: 1rem;
+    align-items: center;
+}
+
+div.increament > i,
+span {
+    font-size: 1rem;
+    color: #1EB589;
+}
+
+div.increament > i,
+span.yt {
+    font-size: 1rem;
+    color: #DC414C;
+}
+
+
+
+@media (max-width: 767px) {
+    .col-lg-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .text-head {
+        font-size: 1rem !important; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text-head{
+        font-size: 1.2rem !important;
+    }
+}
